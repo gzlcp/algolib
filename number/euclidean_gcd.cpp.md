@@ -8,16 +8,16 @@ data:
   _verificationStatusIcon: ':warning:'
   attributes:
     links: []
-  bundledCode: "#line 1 \"number/euclidean_gcd.cpp\"\ntemplate <typename Int>\neuclidean_gcd(Int\
-    \ x, Int y) {\n    if (y == 0) return a;\n    return euclidean_gcd<Int>(y, x %\
-    \ y);\n}\n"
-  code: "template <typename Int>\neuclidean_gcd(Int x, Int y) {\n    if (y == 0) return\
-    \ a;\n    return euclidean_gcd<Int>(y, x % y);\n}\n"
+  bundledCode: "#line 1 \"number/euclidean_gcd.cpp\"\ntemplate <typename Int>\nInt\
+    \ euclidean_gcd(Int x, Int y) {\n    if (y == 0) return a;\n    return euclidean_gcd<Int>(y,\
+    \ x % y);\n}\n"
+  code: "template <typename Int>\nInt euclidean_gcd(Int x, Int y) {\n    if (y ==\
+    \ 0) return a;\n    return euclidean_gcd<Int>(y, x % y);\n}\n"
   dependsOn: []
   isVerificationFile: false
   path: number/euclidean_gcd.cpp
   requiredBy: []
-  timestamp: '2022-02-22 02:57:19+09:00'
+  timestamp: '2022-02-22 03:17:31+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
 documentation_of: number/euclidean_gcd.cpp
