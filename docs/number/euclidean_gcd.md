@@ -16,4 +16,7 @@ documentation_of: //number/euclidean_gcd.cpp
 ## メモ
 
 * 二つの数 $x \geq y$ について，$\frac{x}{2} > (x \bmod y)$ が成り立つ．よって，一回の再帰呼び出しで，$x + y$ の値が $k~(< \frac{3}{4})$ 倍される．
- 
+
+## 参考文献
+
+* [ユークリッドの互除法 - Wikipedia](https://w.wiki/4sVj)
