@@ -11,4 +11,9 @@ documentation_of: //number/euclidean_gcd.cpp
 
 ## 計算量
 
-* `euclidean_gcd(x, y)`  : $O(\log x + \log y)$
+* `euclidean_gcd(x, y)` : $O(\log x + \log y)$
+
+## メモ
+
+* 二つの数 $x \geq y$ について，$\frac{x}{2} > (x \bmod y)$ が成り立つ．よって，一回の再帰呼び出しで，$x + y$ の値が $k~(< \frac{3}{4})$ 倍される．
+ 
