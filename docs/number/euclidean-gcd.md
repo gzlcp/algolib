@@ -1,6 +1,6 @@
 ---
-title: ユークリッドの互除法
-documentation_of: //number/euclidean_gcd.cpp
+title: Euclidean algorithm（ユークリッドの互除法）
+documentation_of: //number/euclidean-gcd.cpp
 ---
 
 ## 説明
