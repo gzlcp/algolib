@@ -60,4 +60,4 @@ $k = n$，$P_i = \\{i\\}$ として初期化され，以下の操作が可能で
 * [素集合データ構造 - Wikipedia](https://w.wiki/4SK8)
 * [UnionFindTree に関する知見の諸々 - noshi91のメモ](https://noshi91.hatenablog.com/entry/2018/05/30/191943)
 * [Union Find の計算量 - 37zigenのHP](https://37zigen.com/union-find-complexity-1/)
-* [アッカーマン関数 - Wikipeida](https://w.wiki/456T)
+* [Union Find の計算量の話 - Qiita](https://qiita.com/kopricky/items/3e5847ab1451fe990367)
