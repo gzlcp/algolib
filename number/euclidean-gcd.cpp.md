@@ -22,7 +22,7 @@ data:
   verifiedWith: []
 documentation_of: number/euclidean-gcd.cpp
 layout: document
-title: "Euclidean algorithm\uFF08\u30E6\u30FC\u30AF\u30EA\u30C3\u30C9\u306E\u4E92\u9664\
+title: "Euclidean Algorithm\uFF08\u30E6\u30FC\u30AF\u30EA\u30C3\u30C9\u306E\u4E92\u9664\
   \u6CD5\uFF09"
 ---
 

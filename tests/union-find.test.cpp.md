@@ -16,7 +16,7 @@ data:
     , line 260, in _resolve\n    raise BundleErrorAt(path, -1, \"no such header\"\
     )\nonlinejudge_verify.languages.cplusplus_bundle.BundleErrorAt: ../../data-structures/union-find.cpp:\
     \ line -1: no such header\n"
-  code: "#define PROBLEM \\\n    \"https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_1_A\"\
+  code: "#define PROBLEM \"https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_1_A\"\
     \n#include \"../../data-structures/union-find.cpp\"\n\n#include <iostream>\n#include\
     \ <string>\nusing namespace std;\n\nint main() {\n    int n, q;\n    cin >> n\
     \ >> q;\n\n    UnionFind union_find(n);\n\n    for (int i = 0; i < q; i++) {\n\
