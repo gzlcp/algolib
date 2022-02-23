@@ -1,4 +1,5 @@
-#define PROBLEM "https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_1_A"
+#define PROBLEM \
+    "https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_1_A"
 #include "../../data-structures/union-find.cpp"
 
 #include <iostream>
