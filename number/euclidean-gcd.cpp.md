@@ -8,21 +8,22 @@ data:
   _verificationStatusIcon: ':warning:'
   attributes:
     links: []
-  bundledCode: "#line 1 \"number/euclidean_gcd.cpp\"\ntemplate <typename Int>\nInt\
+  bundledCode: "#line 1 \"number/euclidean-gcd.cpp\"\ntemplate <typename Int>\nInt\
     \ euclidean_gcd(Int x, Int y) {\n    if (y == 0) return a;\n    return euclidean_gcd<Int>(y,\
     \ x % y);\n}\n"
   code: "template <typename Int>\nInt euclidean_gcd(Int x, Int y) {\n    if (y ==\
     \ 0) return a;\n    return euclidean_gcd<Int>(y, x % y);\n}\n"
   dependsOn: []
   isVerificationFile: false
-  path: number/euclidean_gcd.cpp
+  path: number/euclidean-gcd.cpp
   requiredBy: []
-  timestamp: '2022-02-22 03:17:31+09:00'
+  timestamp: '2022-02-23 20:17:06+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: number/euclidean_gcd.cpp
+documentation_of: number/euclidean-gcd.cpp
 layout: document
-title: "\u30E6\u30FC\u30AF\u30EA\u30C3\u30C9\u306E\u4E92\u9664\u6CD5"
+title: "Euclidean algorithm\uFF08\u30E6\u30FC\u30AF\u30EA\u30C3\u30C9\u306E\u4E92\u9664\
+  \u6CD5\uFF09"
 ---
 
 ## 説明
@@ -33,4 +34,12 @@ title: "\u30E6\u30FC\u30AF\u30EA\u30C3\u30C9\u306E\u4E92\u9664\u6CD5"
 
 ## 計算量
 
-* `euclidean_gcd(x, y)`  : $O(\log x + \log y)$
+* `euclidean_gcd(x, y)` : $O(\log x + \log y)$
+
+## メモ
+
+* 二つの数 $x \geq y$ について，$\frac{x}{2} > (x \bmod y)$ が成り立つ．よって，一回の再帰呼び出しで，$x + y$ の値が $k~(< \frac{3}{4})$ 倍される．
+
+## 参考文献
+
+* [ユークリッドの互除法 - Wikipedia](https://w.wiki/4sVj)
