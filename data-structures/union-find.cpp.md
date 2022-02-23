@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: tests/data-structures/union-find.test.cpp
+    title: tests/data-structures/union-find.test.cpp
   _isVerificationFailed: false
   _pathExtension: cpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"data-structures/union-find.cpp\"\n#include <vector>\n\n\
@@ -29,8 +32,9 @@ data:
   path: data-structures/union-find.cpp
   requiredBy: []
   timestamp: '2022-02-23 22:56:32+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - tests/data-structures/union-find.test.cpp
 documentation_of: data-structures/union-find.cpp
 layout: document
 title: "Union-Find Tree\uFF08\u7D20\u96C6\u5408\u30C7\u30FC\u30BF\u69CB\u9020\uFF09"
