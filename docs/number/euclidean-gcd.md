@@ -1,5 +1,5 @@
 ---
-title: Euclidean algorithm（ユークリッドの互除法）
+title: Euclidean Algorithm（ユークリッドの互除法）
 documentation_of: //number/euclidean-gcd.cpp
 ---
 
